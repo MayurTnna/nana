@@ -3,22 +3,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', serif;
 }
 
-h2 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 4rem;
-}
 
-/* #container {
-    height: 100vh;
-    width: 100vw;
-    background-color: #F2EBDD;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+
+
+
+
 
 .card {
     margin: 0 30px;
@@ -67,6 +58,8 @@ h2 {
     line-height: 50px;
     text-align: center;
     margin-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4rem;
   
 }
 
@@ -75,6 +68,8 @@ h2 {
     line-height: 30px;
     font-weight: 500;
     text-align: center;
+    font-family: 'Raleway', serif!important;
+
 }
 
 #hulk > .card-text {
@@ -82,6 +77,8 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Raleway', serif!important;
+
 }
 
 .card-text > div {
@@ -93,16 +90,22 @@ h2 {
     display: flex;
     align-items: center;
     padding: 0 20px;
+    font-family: 'Raleway', serif!important;
+
 }
 
 #hulk > .card-text > div > div:first-child > span:first-child {
     font-size: 4rem;
     font-weight: 800;
+    font-family: 'Raleway', serif!important;
+
 }
 
 #hulk > .card-text > div > div:first-child > span:last-child {
     font-size: 2rem;
     font-weight: 600;
+    font-family: 'Raleway', serif!important;
+
 }
 
 #hulk > .card-text > div > div:last-child {
@@ -114,15 +117,21 @@ h2 {
     border-right: none;
     border-bottom: none;
     padding: 10px 20px;
+    font-family: 'Raleway', serif!important;
+
 }
 
 #hulk > .card-text > div > div:last-child > span:first-child {
     font-size: 2rem;
     font-weight: bold;
+    font-family: 'Raleway', serif!important;
+
 }
 
 #hulk > .card-text > div > div:last-child > span:last-child {
     font-weight: 500;
+    font-family: 'Raleway', serif!important;
+
 }
 
 #spiderman > .card-image {
@@ -154,6 +163,8 @@ h2 {
     text-align: center;
     margin-left: 10px;
     color: #2E5579;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4rem;
 }
 
 #spiderman > .card-text > div {
@@ -166,26 +177,32 @@ h2 {
 #spiderman > .card-text > div > div:first-child {
     display: flex;
     flex-direction: column;
+    font-family: 'Raleway', serif!important;
+
 }
 
 #spiderman > .card-text > div > div:first-child > span {
     font-size: 1.5rem;
     line-height: 30px;
+    font-family: 'Raleway', serif!important;
     font-weight: 500;
 }
 
 #spiderman > .card-text > div > div:last-child {
+    font-family: 'Raleway', serif!important;
     display: flex;
 }
 
 #spiderman > .card-text > div > div:last-child > span:first-child {
     font-size: 4rem;
+    font-family: 'Raleway', serif!important;
     font-weight: 800;
     line-height: 60px;
 }
 
 #spiderman > .card-text > div > div:last-child > span:last-child {
     font-weight: 600;
+    font-family: 'Raleway', serif!important;
     font-size: 1.1rem;
     margin-right: 10px;
 }
@@ -211,6 +228,7 @@ h2 {
 #deadpool > .card-text {
     display: flex;
     justify-content: center;
+    font-family: 'Raleway', serif!important;
     height: 20%;
 }
 
@@ -219,21 +237,25 @@ h2 {
 }
 
 #deadpool > .card-text > div:last-child {
+    font-family: 'Raleway', serif!important;
     border-left: 3px solid black;
 }
 
 #deadpool > .card-text > div:first-child {
     display: flex;
+    font-family: 'Raleway', serif!important;
     justify-content: center;
     align-items: center;
 }
 
 #deadpool > .card-text > div:first-child > span:first-child {
+    font-family: 'Raleway', serif!important;
     font-size: 4rem;
     font-weight: 800;
 }
 
 #deadpool > .card-text > div:first-child > span:last-child {
+    font-family: 'Raleway', serif!important;
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -241,6 +263,7 @@ h2 {
 #deadpool > .card-text > div:last-child {
     display: flex;
     flex-direction: column;
+    font-family: 'Raleway', serif!important;
     justify-content: center;
     align-items: center;
 }
@@ -248,17 +271,22 @@ h2 {
 #deadpool > .card-text > div:last-child > span:first-child {
     font-size: 3rem;
     font-weight: 600;
+    font-family: 'Raleway', serif!important;
     margin-bottom: 3px;
 }
 
 #deadpool > .card-text > div:last-child > span:nth-of-type(2) {
     font-size: 1.3rem;
+    font-family: 'Raleway', serif!important;
     font-weight: 500;
 }
 
 #deadpool > .card-text > div:last-child > span:last-child {
+    font-family: 'Raleway', serif!important;
     font-size: 1.2rem;
     margin-bottom: 10px;
+    font-family: 'Raleway', serif!important;
+
 }
 
 #deadpool > .card-image p {
@@ -269,6 +297,8 @@ h2 {
     font-weight: 800;
     color: #fff;
     opacity: 0.1;
+    font-family: 'Raleway', serif!important;
+
     /* font-family: "Pacifico", cursive; */
 
 }
@@ -339,6 +369,8 @@ h2 {
     display: inline-block;
     font-size: 40px;
     text-align: center;
+    font-family: 'Raleway', serif!important;
+
 }
 
 @keyframes textclip {
@@ -348,81 +380,7 @@ h2 {
 }
 
 
-body {
-    background: #111;
-    font-family: 'Open Sans', sans-serif;
- }
+
  
- .cta-background {
-    background-size: cover;
-    background-position: center center;
-    bottom: 0;
-    filter: blur(50px);
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: -1;
- }
  
- .container {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
- }
- 
- .cta {
-    background: #333;
-    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
-    height: 450px;
-    overflow: hidden;
-    position: relative;
-    width: 300px;
-    border-radius: 10px;
- }
- 
- .cta:hover img {
-    top: -10%;
-    filter: brightness(70%);
-    background-size: cover;
-    object-fit: fill;
-    height: 100%;
- }
- 
- .cta:hover .text {
-    bottom: 0;
- }
- 
- .cta img {
-    bottom: 0;
-    filter: brightness(100%);
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: 0.5s ease-in-out;
-    width: 115%;
- }
- 
- .cta .text {
-    bottom: -40%;
-    padding: 15px;
-    position: absolute;
-    transition: 0.5s ease-in-out;
- }
- 
- .cta .text h2 {
-    color: #fff;
-    display: inline-block;
-    font-weight: 300;
-    margin-bottom: 5px;
-    position: relative;
- }
- 
- .cta .text p {
-    color: #fff;
-    font-weight: 300;
- }
  

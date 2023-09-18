@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./Card.css";
+import "./Card.scss";
+
 import rebin from "../assets/images/rebin.png";
 import demo from "../assets/videos/card-2.mp4";
 
@@ -17,13 +18,13 @@ const Card = () => {
   return (
     <>
       <div
-        className="card-container"
+        className="birth-card-container"
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
       >
         <div
           id="c"
-          className={isHovering ? "card-hover card mx-auto" : "card mx-auto"}
+          className={isHovering ? "card-hover cardMain mx-auto" : "cardMain mx-auto"}
         >
           <div className="vid-container" id="vid">
             <img src="http://santoshg.com/codepen/iron_man.jpg" alt="" />
@@ -55,3 +56,8 @@ const Card = () => {
 };
 
 export default Card;
+
+
+
+
+
