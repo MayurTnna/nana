@@ -24,7 +24,9 @@ const Card = () => {
       >
         <div
           id="c"
-          className={isHovering ? "card-hover cardMain mx-auto" : "cardMain mx-auto"}
+          className={
+            isHovering ? "card-hover cardMain mx-auto" : "cardMain mx-auto"
+          }
         >
           <div className="vid-container" id="vid">
             <img src="http://santoshg.com/codepen/iron_man.jpg" alt="" />
@@ -56,8 +58,3 @@ const Card = () => {
 };
 
 export default Card;
-
-
-
-
-

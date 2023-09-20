@@ -11,6 +11,7 @@
     box-shadow: inset 100px 0 50px rgba(0, 0, 0, 0.5);
     pointer-events: none;
     z-index: 9999 !important;
+    // margn-top: 100px;
   }
 
   .card-hover {
@@ -76,12 +77,12 @@
   }
 
   .b-title {
-    background: #121fcf;
-    background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 800;
-    line-height: 1.2em;
+    background: #121fcf!important;
+    background: linear-gradient(to right, #121fcf 0%, #cf1512 100%)!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+    font-weight: 800!important;
+    line-height: 1.2em!important;
   }
 
   .end-text {
