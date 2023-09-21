@@ -14,16 +14,18 @@ import uni2 from "./assets/images/astro.jpg";
 
 function App() {
   const ref = useRef();
+  const heartEmoji = String.fromCodePoint(0x2764);
+  const smileEmoji = String.fromCodePoint(0x1f604);
 
   return (
     <div>
       <Parallax pages={5} ref={ref} scrolling={false}>
-        <ParallaxLayer
+        {/* <ParallaxLayer
           sticky={{ start: 0.9, end: 6.0 }}
           style={{ textAlign: "right", zIndex: "-1000" }}
         >
           <img src={cat} />
-        </ParallaxLayer>
+        </ParallaxLayer> */}
         <ParallaxLayer
           offset={0}
           speed={1}
@@ -36,18 +38,14 @@ function App() {
           }}
         />
 
-        <ParallaxLayer
-          offset={0.1}
-          speed={1.5}
-          factor={1.5}
-          
-        >
+        <ParallaxLayer offset={0.1} speed={1.5} factor={1.5}>
           <h1 className="text-center moon-heading">
-            Hello Moon (JIYU❤️) . I know I'm quite at distance from you, but in
-            the end, i wanna bask in the sparkle of the my moon's smile. This
-            month has been exceptionally fortunate and blessed for both
-            Chandrayan and me. We both harbored a heartfelt desire to gaze
-            closely at our own moon, as if God had granted us that very wish.
+            Hello Moon (JIYU{heartEmoji}
+            {smileEmoji}); I know I'm quite at distance from you, but in the
+            end, i wanna bask in the sparkle of the my moon's smile. This month
+            has been exceptionally fortunate and blessed for both Chandrayan and
+            me. We both harbored a heartfelt desire to gaze closely at our own
+            moon, as if God had granted us that very wish.
           </h1>
         </ParallaxLayer>
         <ParallaxLayer offset={0.8} speed={1} factor={2}>
@@ -77,8 +75,9 @@ function App() {
 
         <div className="geelo">
           <ParallaxLayer
-            offset={1.6}
+            offset={1.5}
             speed={0.25}
+            factor={3}
             // onClick={() => ref.current.scrollTo(3)}
           >
             <Card />
@@ -107,14 +106,16 @@ function App() {
         </ParallaxLayer>
         <ParallaxLayer
           offset={3} // Adjust this value
-          speed={0.5}
-          factor={2} // Adjust this value
+          speed={2.5}
+          factor={3} // Adjust this value
           style={{
             backgroundImage: `url(${land})`,
             backgroundSize: "cover",
-            overflow: "hidden",
-            // transform:"none"
-            transform: "translate3d(0px, 2572px, 0px)",
+
+            overflow: "initial",
+            transform: "none",
+            transform: "translate3d(0px, 2223px, 0px)",
+          
           }}
         >
           <Timeline />

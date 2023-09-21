@@ -20,8 +20,10 @@
         -ms-transition: 0.5s;
         transition: 0.5s;
         pointer-events: auto!important;
+        font-family: Georgia, serif;
 
     }
+
 
     a:hover,
     a.selected {
@@ -38,12 +40,16 @@
         text-shadow: #000 1px 1px 2px;
         margin-bottom: 5px;
         z-index: 999;
+        font-family: Georgia, serif;
+
     }
 
 
     .sociales {
         text-align: center;
         margin-bottom: 20px;
+        font-family: Georgia, serif;
+
     }
 
     #timeline {
@@ -76,15 +82,22 @@
         font-size: 24px;
         padding-left: 20px;
         background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/biggerdot.png') left center no-repeat;
+        font-family: Georgia, serif;
+
     }
 
     #dates a {
         line-height: 38px;
         padding-bottom: 10px;
+        font-family: Georgia, serif;
+
     }
 
     #dates .selected {
-        font-size: 38px;
+        font-size: 28px;
+        font-weight: 800;
+        text-shadow: #000 1px 1px 2px;
+
     }
 
     #issues {
@@ -143,15 +156,21 @@
         text-align: center;
         text-shadow: #000 1px 1px 2px;
         pointer-events: auto!important;
+        font-family: Georgia, serif;
+
 
     }
 
     #issues li p {
         font-size: 14px;
         margin: 10px 20px;
-        font-weight: normal;
+        font-weight: bold;
         line-height: 22px;
-        text-shadow: #000 1px 1px 2px;
+        text-shadow: #000 2px 1px 2px!important;
+        font-family: Georgia, serif;
+        color: #fff;
+      
+
     }
 
     #grad_top,
