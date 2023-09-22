@@ -21,12 +21,12 @@ function App() {
   return (
     <div>
       <Parallax pages={5} ref={ref} scrolling={false}>
-        {/* <ParallaxLayer
+        <ParallaxLayer
           sticky={{ start: 0.9, end: 6.0 }}
           style={{ textAlign: "right", zIndex: "-1000" }}
         >
           <img src={cat} />
-        </ParallaxLayer> */}
+        </ParallaxLayer>
         <ParallaxLayer
           offset={0}
           speed={1}
