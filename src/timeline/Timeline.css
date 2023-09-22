@@ -54,7 +54,7 @@
 
     #timeline {
         width: 500px;
-        height: 150vh;
+        height: 220vh;
         overflow: hidden;
         margin: 40px auto;
         position: relative;
@@ -169,6 +169,7 @@
         text-shadow: #000 2px 1px 2px!important;
         font-family: Georgia, serif;
         color: #fff;
+        overflow: initial!important;
       
 
     }

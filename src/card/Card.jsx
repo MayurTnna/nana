@@ -29,7 +29,6 @@ const Card = () => {
           }
         >
           <div className="vid-container" id="vid">
-            <img src="http://santoshg.com/codepen/iron_man.jpg" alt="" />
             <video autoPlay muted loop width="100%" height="100%">
               <source src={demo} />
             </video>
@@ -41,7 +40,7 @@ const Card = () => {
               className="rebin
                   "
             />
-            <h2 className="b-title">Happy Birthday Mayur</h2>
+            <h2 className="b-title">Happy Birthday Jiyu</h2>
             <p>
               Happy Birthday to someone who isn't just my best friend but also a
               cherished confidant, the one I turn to at any hour. With you, time

@@ -6,16 +6,25 @@
   font-family: "Pacifico", cursive;
 }
 
-.moon-heading{
+.moon-heading {
   text-align: center;
   font-family: cubano, sans-serif;
   font-weight: 400;
   color: white;
   font-size: 3vw;
-	text-shadow: -0.04em 0.04em 0 #000,
-				  0.04em 0.04em 0 #000,
-				 0.04em -0.04em 0 #000,
-				-0.04em -0.04em 0 #000;
-        margin-top: 50px!important;
-        padding: 0 20%;
+  text-shadow: -0.04em 0.04em 0 #000, 0.04em 0.04em 0 #000,
+    0.04em -0.04em 0 #000, -0.04em -0.04em 0 #000;
+  margin-top: 50px !important;
+  padding: 0 20%;
+}
+.final-text {
+  text-align: center;
+  font-family: cubano, sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 3vw;
+  text-shadow: -0.04em 0.04em 0 #000, 0.04em 0.04em 0 #000,
+    0.04em -0.04em 0 #000, -0.04em -0.04em 0 #000;
+  margin-top: 50px !important;
+  padding: 0 20%;
 }

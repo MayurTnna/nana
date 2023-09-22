@@ -11,6 +11,7 @@ import Demo1 from "./demo/Demo1";
 import Timeline from "./timeline/Timeline";
 import uni from "./assets/images/bg1.jpg";
 import uni2 from "./assets/images/astro.jpg";
+import finalRain from "./assets/videos/rain.mp4";
 
 function App() {
   const ref = useRef();
@@ -115,10 +116,57 @@ function App() {
             overflow: "initial",
             transform: "none",
             transform: "translate3d(0px, 2223px, 0px)",
-          
           }}
         >
           <Timeline />
+        </ParallaxLayer>
+        <ParallaxLayer
+          offset={4.8} // Adjust this value as needed
+          speed={0.5}
+          factor={2} // Adjust this value as needed
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <video
+            autoPlay
+            muted
+            loop
+            style={{ width: "100vw", height: "100vh", objectFit: "cover" }}
+          >
+            <source src={finalRain} type="video/mp4" />
+            {/* Add more source tags for different video formats if needed */}
+          </video>
+        </ParallaxLayer>
+        <ParallaxLayer offset={4.9} factor={1} speed={2}>
+          <h1
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="final-text"
+          >
+            If ever there is a tomorrow when we're not together, there is
+            something you must always remember: You are braver than you believe,
+            stronger than you seem, and smarter than you think. But the most
+            important thing is, even if we're apart, I'll always be with you in
+            spirit.
+          </h1>
+          <h1
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+            className="final-text"
+          >
+            Take care, Jiyu! 😊 Missing you immensely, with so much left to
+            express. Hoping for the chance to share it all someday. Thank you
+            deeply for everything, Jiyu. 🫠❤️
+          </h1>
         </ParallaxLayer>
       </Parallax>
     </div>
