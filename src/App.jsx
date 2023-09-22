@@ -58,7 +58,9 @@ function App() {
             radiating infectious smile . I do not seek to captivate the moon's
             attention, for billions gaze upon it daily, making wishes. I am
             among those who simply wish to bask in my moon's beauty and savor
-            every moment of it for till I have it ♥️ ❤️.
+            every moment of it for till I have it ♥️ ❤️. (Very sorry for below
+            text in small size , you can zoom it and have also sended that
+            message directly to you)
           </h1>
         </ParallaxLayer>
 
