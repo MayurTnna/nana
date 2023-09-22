@@ -33,7 +33,6 @@ const Carousel = () => {
         'life' , 'existence' and 'everything,' So, spill the beans, what's the
         secret behind your amazingness?"
       </h1>
-    
       <div className="swiper-div">
         <Swiper
           modules={[
@@ -118,16 +117,7 @@ const Carousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="card mx-auto" id="spiderman">
-              <div
-                className="card-image"
-                style={{
-                  background: "#ADA996",
-                  background:
-                    "-webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996)",
-                  background:
-                    "linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996)",
-                }}
-              >
+              <div className="card-image">
                 <img src={j4} />
               </div>
               <div className="card-text">
@@ -148,7 +138,6 @@ const Carousel = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-     
     </>
   );
 };

@@ -114,7 +114,7 @@ function App() {
             backgroundSize: "cover",
 
             overflow: "initial",
-            transform: "none",
+
             transform: "translate3d(0px, 2223px, 0px)",
           }}
         >
