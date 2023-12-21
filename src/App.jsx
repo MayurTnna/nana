@@ -41,7 +41,7 @@ function App() {
 
         <ParallaxLayer offset={0.1} speed={1.5} factor={1.5}>
           <h1 className="text-center moon-heading">
-            Hello Moon (JIYU{heartEmoji}
+            Hello Moon (Ninu{heartEmoji}
             {smileEmoji}); I know I'm quite at distance from you, but in the
             end, i wanna bask in the sparkle of the my moon's smile. This month
             has been exceptionally fortunate and blessed for both Chandrayan and
@@ -165,9 +165,9 @@ function App() {
             }}
             className="final-text"
           >
-            Take care, Jiyu! 😊 Missing you immensely, with so much left to
+            Take care, Ninu! 😊 Missing you immensely, with so much left to
             express. Hoping for the chance to share it all someday. Thank you
-            deeply for everything, Jiyu. 🫠❤️
+            deeply for everything, Ninu. 🫠❤️
           </h1>
         </ParallaxLayer>
       </Parallax>

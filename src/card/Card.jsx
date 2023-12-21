@@ -40,7 +40,7 @@ const Card = () => {
               className="rebin
                   "
             />
-            <h2 className="b-title">Happy Birthday Jiyu</h2>
+            <h2 className="b-title">Happy Birthday Ninu</h2>
             <p>
               Happy Birthday to someone who isn't just my best friend but also a
               cherished confidant, the one I turn to at any hour. With you, time
